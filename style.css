@@ -1,0 +1,50 @@
+body {
+  background-color: #fcfefe;
+}
+.screen {
+  width: 500px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px;
+  display: grid;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  position: relative;
+  left: 5%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  right: 13%;
+}
+
+#color {
+  text-align: center;
+  border: none;
+  border-radius: 50%;
+}
+
+.button {
+  border: 1px solid rgb(0, 0, 0);
+  transition: all 0.25s;
+}
+
+.button:hover {
+  border: 1px solid black;
+  transform: scale(1.3);
+}
