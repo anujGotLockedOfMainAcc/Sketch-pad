@@ -10,13 +10,17 @@ body {
 }
 
 .heading {
-  font-family: "Sedgwick Ave Display", cursive;
+  font-family: "Amatic SC", cursive;
+  font-weight: bolder;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 4%;
   position: relative;
-  left: 5%;
+  left: 7%;
+}
+h1 {
+  font-size: 6rem;
 }
 
 .main {
@@ -43,6 +47,13 @@ body {
 .button {
   border: 1px solid rgb(0, 0, 0);
   transition: all 0.25s;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.button:focus {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 .button:hover {
