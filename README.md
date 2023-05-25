@@ -2,21 +2,17 @@
 
 Sketch-pad is a simple web application that allows users to draw and sketch using their mouse or touch input. It is built using HTML, CSS, and JavaScript.
 
-Sketch-pad Demo
+#Sketch-pad Demo
+[click me :)](https://anuj-sketch-pad.netlify.app/)
 
-
-Features
+#Features
 Drawing Canvas: Users can draw freely on the canvas using their mouse or touch input.
 Color Selection: Users can choose different colors for their drawings.
 Brush Size: Users can adjust the brush size to create thick or thin lines.
 Clear Canvas: Users can clear the entire canvas to start a new drawing.
-Getting Started
-To run the Sketch-pad application locally, follow these steps:
-
-https://anuj-sketch-pad.netlify.app/
-
 
 #Usage
+
 Use the mouse or touch input to draw on the canvas.
 Click on the color palette to select a different drawing color.
 Adjust the brush size using the size slider.
